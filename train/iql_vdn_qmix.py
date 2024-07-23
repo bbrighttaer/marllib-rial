@@ -27,13 +27,6 @@ if __name__ == '__main__':
         help='Select which CTDE algorithm to run.',
     )
 
-    parser.add_argument(
-        '-e', '--exec_mode',
-        default='train',
-        type=str,
-        choices=['train', 'eval', 'render'],
-        help='Execution mode',
-    )
     args = parser.parse_args()
 
     mode = args.exec_mode
