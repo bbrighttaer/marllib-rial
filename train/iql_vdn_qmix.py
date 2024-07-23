@@ -29,8 +29,6 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    mode = args.exec_mode
-
     # get env
     env, exp_config = envs.get_active_env()
 
